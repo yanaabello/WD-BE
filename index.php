@@ -14,15 +14,15 @@
         href="https://fonts.googleapis.com/css2?family=Creepster&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Modak&family=Mrs+Saint+Delafield&family=Nosifer&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&family=Press+Start+2P&family=Qwitcher+Grypen&display=swap"
         rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
-    <link href="assets/icoPage.ico" rel="icon" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
+    <link href="assets/media/icoPage.ico" rel="icon" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
 
     <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #220629;">
         <a class="navbar-brand" href="index.html">
-            <img src="assets/logoPage.png" alt="Logo" style="width: 40px; height: 40px; margin-left: 25px;">
+            <img src="assets/media/logoPage.png" alt="Logo" style="width: 40px; height: 40px; margin-left: 25px;">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -46,14 +46,15 @@
 
     <div class="container-fluid p-0">
         <div class="gif-row">
-            <img src="assets/frontGif.gif" alt="GIF" class="GIF">
+            <img src="assets/media/frontGif.gif" alt="GIF" class="GIF">
         </div>
     </div>
 
     <div class="container-fluid" style="background-color: #220629; padding: 50px 0;" id="about">
         <div class="row align-items-center px-5">
             <div class="col-12 col-md-6 text-center mb-4 mb-md-0">
-                <img src="assets/formalPic.png" alt="Profile Picture" class="img-fluid rounded" style="width: 500px;">
+                <img src="assets/media/formalPic.png" alt="Profile Picture" class="img-fluid rounded"
+                    style="width: 500px;">
             </div>
 
             <div class="col-12 col-md-6 text-white">
@@ -75,7 +76,7 @@
 
     <div class="container-fluid p-0">
         <div class="pic-row">
-            <img src="assets/pic.jpg" alt="pic" class="pic">
+            <img src="assets/media/pic.jpg" alt="pic" class="pic">
         </div>
     </div>
 
@@ -87,47 +88,11 @@
         <div class="row justify-content-center g-4">
             <div class="col-12 col-md-4 col-lg-3">
                 <div class="card proj-card text-center">
-                    <h3 class="card-title">Activity 4</h3>
-                    <a class="btn proj-btn mt-3" href="activity 4 - device/device.html">View</a>
-                </div>
-            </div>
-
-            <div class="col-12 col-md-4 col-lg-3">
-                <div class="card proj-card text-center">
-                    <h3 class="card-title">Activity 5</h3>
-                    <a class="btn proj-btn mt-3" href="activity 5 - place/home.html">View</a>
-                </div>
-            </div>
-
-            <div class="col-12 col-md-4 col-lg-3">
-                <div class="card proj-card text-center">
-                    <h3 class="card-title">Activity 6</h3>
-                    <a class="btn proj-btn mt-3" href="activity 6 - gallery/home.html">View</a>
-                </div>
-            </div>
-
-            <div class="col-12 col-md-4 col-lg-3">
-                <div class="card proj-card text-center">
-                    <h3 class="card-title">Activity 7</h3>
-                    <a class="btn proj-btn mt-3" href="activity 7 - api/index.html">View</a>
-                </div>
-            </div>
-
-            <div class="col-12 col-md-4 col-lg-3">
-                <div class="card proj-card text-center">
-                    <h3 class="card-title">Midterm 1</h3>
-                    <a class="btn proj-btn mt-3" href="midterm 1 - video/video.html">View</a>
-                </div>
-            </div>
-
-            <div class="col-12 col-md-4 col-lg-3">
-                <div class="card proj-card text-center">
-                    <h3 class="card-title">Midterm 2</h3>
-                    <a class="btn proj-btn mt-3" href="midterm 2 - parallax/banner.html">View</a>
+                    <h3 class="card-title">A08</h3>
+                    <a class="btn proj-btn mt-3" href="A08/index.php">View</a>
                 </div>
             </div>
         </div>
-    </div>
     </div>
 
     <footer class="footer text-center text-white py-4" id="contacts">
@@ -147,7 +112,7 @@
             <p class="mt-4">&copy; 2024 Yana's Projects | All Rights Reserved</p>
         </div>
     </footer>
-    
+
 
     </div>
 
